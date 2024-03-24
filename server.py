@@ -9,4 +9,4 @@ def main():
     return render_template("main.html")
 
 
-app.run(port=8880, host='127.0.0.1')
+app.run("0.0.0.0", 5000)
